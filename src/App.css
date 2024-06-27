@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+.nav__li{
+  padding: 7px 22px;
+  background-color: #FC8B40;
+  
+}
+
+.game .wrapper {
+  max-width: 100%;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: space-between;
+}
+
+.game .main {
+  max-width: 78%;
+  width: 100%;
+  padding: 50px;
+}
+
+.game .main ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.game .main ul li {
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: gray;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.game .main .hero {
+  max-width: 100%;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  background: url(../src/assets/images/BG-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  
+  padding: 50px;
+}
+
+.game .main .hero__content h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 42px;
+  width: 500px;
+}
+
+.game .main .hero__content button {
+  border: none;
+  background-color: #fc8b40;
+  color: white;
+  font-size: 16px;
+  padding: 15px 29px;
+  border-radius: 8px;
+}
+
+.game .main .popular__game {
+  margin-top: 20px;
+}
+
+.game .main .popular__game h2 {
+  color: #261d56;
+  margin-bottom: 5px;
+}
+
+.game .main .popular__game .cards {
+  max-width: 100%;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  gap: 20px;
+  font-family: "Oxanium", sans-serif;
+}
+
+.game .main .popular__game .cards .card {
+  width: 180px;
+  height: 250px;
+  border-radius: 10px;
+  background: url(../src/assets/images/card1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  padding: 20px 10px;
+  color: white;
+}
+
+.game .main .popular__game .cards .card h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.game .main .popular__game .cards .card2 {
+  background: url(../src/assets/images/card2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game .main .popular__game .cards .card3 {
+  background: url(../src/assets/images/card3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game .main .popular__game .cards .card4 {
+  background: url(../src/assets/images/card4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game .main .popular__game .cards .card5 {
+  background: url(../src/assets/images/card5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game .main .new__games {
+  margin-top: 20px;
+}
+
+.game .main .new__games h2 {
+  margin-bottom: 20px;
+  color: #261d56;
+}
+
+.game .main .new__games .new__cards {
+  max-width: 100%;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.game .main .new__games .new__cards .small_card {
+  width: 230px;
+  height: 90px;
+  padding: 10px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.397);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.game .main .new__games .new__cards .small_card .small-card__img {
+  width: 40%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.game .main .new__games .new__cards .small_card .small-card__img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.game .main .new__games .new__cards .small_card .small-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 60%;
+}
+
+.game .main .new__games .new__cards .small-card .small-card__content h3 {
+  font-size: 15px;
+}
+
+.game .main .new__games .new__cards .small-card .small-card__content p {
+  color: gray;
+  font-size: 12px;
+  text-align: left;
+}
+
+.game .live__game {
+  max-width: 320px;
+  width: 100%;
+  padding: 50px 20px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.437);
+  background-color: white;
+}
+
+.game .live__game .admin__qongro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.game .live__game h2 {
+  color: #22283c;
+  margin-bottom: 15px;
+}
+
+.game .live__game .orange__box {
+  width: 100%;
+  height: 80px;
+  background-color: #fc8b40;
+}
+
+.game .live__game .small-card {
+  width: 100%;
+  height: 90px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.game .live__game .small-card .small-card-img {
+  width: 40%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.game .live__game .small-card .small-card-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.game .live__game .small-card .small-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 60%;
+}
+
+.game .live__game .small-card .small-card-content h3 {
+  font-size: 15px;
+}
+
+.game .live__game .small-card .small-card-content p {
+  color: gray;
+  font-size: 12px;
+  text-align: left;
+}
+
+.game .live__game .download__game {
+  max-width: 100%;
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.game .live__game .download__game .download__game-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.game .live__game .download__game .download__game-content h3 {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.game .live__game .download__game .download__game-content span {
+  display: block;
+  color: gray;
+  font-size: 18px;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.game .live__game .download__game .download__game-content p {
+  color: gray;
+  margin-top: 10px;
+}
+.download__btn{
+  border-radius: 8px;
+
+  max-width: 286px;
+  height: 45px;
+  background-color: #FC8B40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33px
+}
+.download__btn button{
+  border: none;
+  font-size: 17px;
+  background-color: #FC8B40;
+  color: #fff;
+}

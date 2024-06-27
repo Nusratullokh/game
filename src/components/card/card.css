@@ -1,0 +1,37 @@
+.small__card {
+    width: 230px;
+    height: 90px;
+    padding: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.small__card-img {
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.small__card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.small__card-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.small__card-content h3 {
+    font-size: 15px;
+}
+
+.small__card-content p {
+    color: gray;
+    font-size: 12px;
+}
